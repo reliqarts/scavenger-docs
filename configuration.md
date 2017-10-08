@@ -3,12 +3,10 @@
 - [Structure](#structure)
 - [Target Breakdown](#target-breakdown)
 
-Scavenger is highly configurable. These configurations remain for use the next time around. 
-
 <a name="structure"></a>
 ## Structure
 
-Below is an example of a typical config file structure, with explaining comments.
+Scavenger is highly configurable. Below is an example of a typical config file structure, with explaining comments.
 
 ```php
 <?php
