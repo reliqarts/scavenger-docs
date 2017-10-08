@@ -1,6 +1,5 @@
 # Installation
 
-
 1. Download Package ZIP and extract to your "premium packages" folder or folder of your choice.
 
 2. Update your `composer.json` to load package.

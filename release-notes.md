@@ -5,7 +5,7 @@
 - [Acknowledgements](#acknowledgements)
 
 
-![Laravel Scavenger](./docs/images/inline-preview.png "Laravel Scavenger")
+![Laravel Scavenger](https://raw.githubusercontent.com/reliqarts/scavenger-docs/master/images/inline-preview.png "Laravel Scavenger")
 
 A highly flexible Laravel 5.x scraper package.
 

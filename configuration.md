@@ -1,8 +1,11 @@
 # Configuration
 
+- [Structure](#structure)
+- [Target Breakdown](#target-breakdown)
+
 Scavenger is highly configurable. These configurations remain for use the next time around. 
 
-
+<a name="structure"></a>
 ## Structure
 
 Below is an example of a typical config file structure, with explaining comments.
@@ -135,6 +138,7 @@ return [
 
 ```
 
+<a name="target-breakdown"></a>
 ### Target Breakdown
 
 The `targets` array is to contain a list of scrapable entities keyed by a unique target identifier. The structure is as follows.
