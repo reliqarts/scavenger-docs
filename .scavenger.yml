@@ -1,0 +1,3 @@
+name: Scavenger
+description: A highly flexible Laravel 5.x scraper package.
+image: "{{docs}}/images/inline-preview.png"
