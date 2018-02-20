@@ -31,6 +31,8 @@ Scavenger provides the following features and more out of the box.
     - Artisan command: `php artisan scavenger:seek`
 - Schedule ready
     - Scavenger can easily be set to scrape on a schedule. Hence, creating a someone autonomous website is super easy!
+- SERP
+    - Scavenger can be used to flexibly scrape Search Engine Result Pages.
 
 <a name="glossary"></a>
 ## Glossary
