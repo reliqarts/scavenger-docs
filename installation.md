@@ -4,7 +4,7 @@
 
 2. Update your `composer.json` to load package.
 
-    - Add local `vcs` repository. See composer [doc](https://getcomposer.org/doc/05-repositories.md#loading-a-package-from-a-vcs-repository) for more info.
+    - Add local `path` repository. See composer [doc](https://getcomposer.org/doc/05-repositories.md#loading-a-package-from-a-vcs-repository) for more info.
 
         eg.
         ```javascript
