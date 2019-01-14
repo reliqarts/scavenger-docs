@@ -21,7 +21,7 @@
         ```javascript
         "require": {
             //...
-            "reliqarts/scavenger": "~1.0"
+            "reliqarts/scavenger": "^2.1"
             //...
         },
         ```
