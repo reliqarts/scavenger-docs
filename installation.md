@@ -21,17 +21,8 @@
         ```javascript
         "require": {
             //...
-            "reliqarts/scavenger": "^2.1"
+            "reliqarts/scavenger": "^2.2"
             //...
         },
         ```
-
-3. Add service provider to providers array in `config/app.php`.
-```php
-'providers' => [
-        //...
-        ReliQArts\Scavenger\ScavengerServiceProvider::class,
-        //...
-],
-```
 
