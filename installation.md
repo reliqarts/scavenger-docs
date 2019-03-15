@@ -7,7 +7,7 @@
     - Add local `path` repository. See composer [doc](https://getcomposer.org/doc/05-repositories.md#loading-a-package-from-a-vcs-repository) for more info.
 
         eg.
-        ```javascript
+        ```json
         "repositories": [
             {
                 "type": "path",
@@ -18,11 +18,9 @@
 
     - Require the package.
 
-        ```javascript
+        ```json
         "require": {
-            //...
             "reliqarts/scavenger": "^2.2"
-            //...
         },
         ```
 
