@@ -195,7 +195,7 @@ return [
 <a name="target-breakdown"></a>
 ### Target Breakdown
 
-The `targets` array is to contain a list of scrapable entities keyed by a unique target identifier. The structure is as follows.
+The `targets` array is to contain a list of scrap-able entities keyed by a unique target identifier. The structure is as follows.
 
 - `example`: Whether target is an example. Examples are skipped. `[true or false]` (optional)
 - `serp`: Whether target is for SERP scraping. This should be used in conjunction with the `__result` key in the `markup` definition. `[true or false]` (optional)

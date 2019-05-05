@@ -37,7 +37,7 @@ Scavenger provides the following features and more out of the box.
 --- 
 
 **NB**: As of version 2.2.0 raw HTML is scraped by default for each target key (attribute), excluding the reserved `title` attribute.
-The `\ReliQArts\Scavenger\Services\Scanner::cleanText()` method is provided, and can be used as a preprocess method for attributes needed as pure text.
+The `\ReliqArts\Scavenger\Services\Scanner::cleanText()` method is provided, and can be used as a preprocess method for attributes needed as pure text.
 
 e.g. usage:
 ```php
@@ -45,7 +45,7 @@ e.g. usage:
 // modify attributes by calling functions
 'preprocess' => [
     // strip all HTML within title and provide clean, simple text
-    'title' => ['\ReliQArts\Scavenger\Services\Scanner', 'cleanText'],
+    'title' => ['\ReliqArts\Scavenger\Services\Scanner', 'cleanText'],
 ],
 //...
 ```
@@ -67,7 +67,7 @@ The following words may appear in this documentation.
 
 #### Author
 
-Patrick Reid (ReliQ) - <reliq@reliqarts.com> - <http://twitter.com/iamreliq>
+Patrick Reid (Reliq) - <reliq@reliqarts.com> - <http://twitter.com/iamreliq>
 
 #### Major Third-Party Libraries
 

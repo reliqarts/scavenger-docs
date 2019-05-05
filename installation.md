@@ -20,7 +20,7 @@
 
         ```json
         "require": {
-            "reliqarts/scavenger": "^2.2"
+            "reliqarts/scavenger": "^2.3"
         },
         ```
 
