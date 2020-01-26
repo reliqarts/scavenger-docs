@@ -7,7 +7,7 @@
 
 ![Laravel Scavenger](https://raw.githubusercontent.com/reliqarts/scavenger-docs/master/images/inline-preview.png "Laravel Scavenger")
 
-A highly flexible Laravel 5.x scraper package.
+A highly flexible Laravel 6.x scraper package.
 
 
 ---
@@ -20,12 +20,12 @@ Scavenger provides the following features and more out of the box.
 - Ease of use
     - Scavenger is super-easy to configure. Simple publish the config file and set your targets.
 - Scrape data from multiple sources at once.
-- Convert scraped data into useable Laravel model objects.
+- Convert scraped data into usable Laravel model objects.
     - eg. You may scrape an article and have it converted into an object of your choice and saved in your database. Immediately available to your viewers.
 - You can easily perform one or more operations to each property of any scraped entity.
     - eg. You may call a paraphrase service from a model or package of your choice on data attributes before saving them to your database.
 - Data integrity constraints
-    - Scavanger uses a hashing algorithm of your choice to maintain data integrity. This hash is used to ensure that one scrap (source article) is not converted to multiple output objects (model duplicates).
+    - Scavenger uses a hashing algorithm of your choice to maintain data integrity. This hash is used to ensure that one scrap (source article) is not converted to multiple output objects (model duplicates).
 - Console Command
     - Once scavenger is configured, a simple artisan command launches the seeker. Since this is a console command it is more efficient and timeouts are less likely to occur.
     - Artisan command: `php artisan scavenger:seek`
@@ -37,7 +37,7 @@ Scavenger provides the following features and more out of the box.
 --- 
 
 **NB**: As of version 2.2.0 raw HTML is scraped by default for each target key (attribute), excluding the reserved `title` attribute.
-The `\ReliqArts\Scavenger\Services\Scanner::cleanText()` method is provided, and can be used as a preprocess method for attributes needed as pure text.
+The `\ReliqArts\Scavenger\Service\Scanner::cleanText()` method is provided, and can be used as a preprocess method for attributes needed as pure text.
 
 e.g. usage:
 ```php
@@ -45,7 +45,7 @@ e.g. usage:
 // modify attributes by calling functions
 'preprocess' => [
     // strip all HTML within title and provide clean, simple text
-    'title' => ['\ReliqArts\Scavenger\Services\Scanner', 'cleanText'],
+    'title' => ['\ReliqArts\Scavenger\Service\Scanner', 'cleanText'],
 ],
 //...
 ```

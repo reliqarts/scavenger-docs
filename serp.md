@@ -90,7 +90,7 @@ return [
         'scraps_table' => env('SCAVENGER_SCRAPS_TABLE', 'scavenger_scraps'),
     ],
     'daemon' => [ 
-        'model' => 'App\\User',
+        'model' => \App\User::class,
         'id_prop' => 'email',
         'id' => 'daemon@scavenger.reliqarts.com',
         'info' => [

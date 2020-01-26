@@ -209,7 +209,7 @@ The `targets` array is to contain a list of scrap-able entities keyed by a uniqu
 - `pages`: Max. number of pages to scrape (0 is unlimited)
 - `pager`: Next button CSS selector. To skip to next page.
 - `markup`: Array of attributes to scrape from main list. `[attributeName => CSS selector]`
-    - `__inside`: Sub markup for detail page. Markeup for page which shows when article title is clicked/opened. (optional)
+    - `__inside`: Sub markup for detail page. Markup for page which shows when article title is clicked/opened. (optional)
         - `__focus`: Focus detail within a specific section of the page. This is useful if all CSS selectors to be scraped are within a single area. (i.e. focus area)
     - `__result`|`__wrapper`|`__item`: Wrapping selector for each item on single page. If `__inside` special key is set this key becomes invalid (i.e. `__inside` takes preference)
 - `dissect`: Split compound attributes into smaller attributes via REGEX. (optional)

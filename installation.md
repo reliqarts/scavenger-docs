@@ -20,7 +20,7 @@
 
         ```json
         "require": {
-            "reliqarts/scavenger": "^2.3"
+            "reliqarts/laravel-scavenger": "^3.0"
         },
         ```
 
